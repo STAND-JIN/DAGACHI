@@ -6,7 +6,7 @@
 
 ### Used Libraries
 ```
-cv2
+cv2   # 설치시 pip install opencv-python
 keras == 2.3.1
 tensorflow == 2.2.0
 pandas
