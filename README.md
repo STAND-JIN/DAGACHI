@@ -1,2 +1,0 @@
-# DAGACHI
-DAGACHI
