@@ -1,7 +1,5 @@
 # Find Font
 
----
-
 DAGACHI X 8793 Project
 
 사용자가 업로드한 이미지와 가장 유사한 폰트를 확인하는 모델 구현
@@ -28,7 +26,7 @@ sklearn
 또한 TTF 파일 1개 당 4배수의 이미지를 생성하여 학습 능률을 강화하였다. 
 
 ### Training Model
-DeepFont 논문 및 Git 
+DeepFont 논문 및 해당 모델을 참고하였다.
 
 1. 이미지 증폭  
 길이 조합의 모든 경우의 수를 구하는 itertools 라이브러리의 combinations을 이용하여 학습 이미지에 노이즈, 블러, affine 변환, 그라데이션을 적용하였다.
@@ -95,3 +93,8 @@ _________________________________________________________________
 ### Feedback
 Google Colab Pro+를 이용하여 학습을 진행하였으나 제공되는 RAM과 Runtime의 제약으로 많은 수의 폰트를 학습하지 못하였다.
 하지만 적은 epoch과 batchsize에도 불구하고 결과적으로 좋은 정확도를 획득했기 때문에 컴퓨팅 자원을 보완하면 더 많은 폰트 학습도 성공적으로 진행 할 수 있을 것으로 보인다.
+
+
+### 참고
+Zhangyang Wang, Jianchao Yang, Hailin Jin, Eli Shechtman, Aseem Agarwala, Jonathan Brandt, Thomas S. Huang(2015). DeepFont: Identify Your Font from An Image. MM’15, October 26–30, 2015, Brisbane, Australia.  
+https://github.com/robinreni96/Font_Recognition-DeepFont.git
