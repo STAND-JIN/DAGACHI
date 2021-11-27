@@ -7,14 +7,18 @@
 
 ### Used Libraries
 ```
-cv2
-keras == 2.3.1
-tensorflow == 2.2.0
-pandas
-numpy
-sklearn
-shutil
+tensorflow == 1.13.1
+keras == 2.2.4
+h5py == 2.10.0
+os
+random
 matplotlib
+numpy
+PIL
+cv2
+itertools
+imutils
+sklearn
 ```
 
 ### Train Data
